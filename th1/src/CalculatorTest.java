@@ -15,7 +15,7 @@ class CalculatorTest {
         int expected = 2;
 
 
-        int result = Calculator.calculate(firstOperand, secondOperand, operator);
+        int result = Calculator.calculate(firstOperand, secondOperand, operator );
         assertEquals(expected, result);
     }
 
